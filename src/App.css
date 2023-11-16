@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: lightblue url("https://www.thepinknews.com/wp-content/uploads/2023/03/Taylor-Swift-Eras-Tour.jpg") no-repeat fixed center;
+    background-position: center 20%;
+}
+
+.title-head-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: lightblue url("https://www.thepinknews.com/wp-content/uploads/2023/03/Taylor-Swift-Eras-Tour.jpg") no-repeat fixed center;
+    background-position: center 20%;
+}
+
+.title-head { 
+    background-color: rgba(255, 182, 193, 0.8);
+    padding: 2em;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    color: #ff6a80;
+    margin: 0;
+}
+
+.Artist-name {
+    font-family: 'Lavishly Yours', cursive;
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: bolder;
+    font-stretch: 50%;
+    color: #ff6a80;
+    margin: 0;
+}
+
